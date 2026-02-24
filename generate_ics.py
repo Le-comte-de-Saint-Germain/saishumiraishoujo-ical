@@ -1,3 +1,4 @@
+import os
 import re
 import time
 import requests
@@ -26,8 +27,10 @@ LABELS_TO_STRIP = {
     "LIVE", "EVENT", "TV", "RADIO", "MAGAZINE", "OTHER",
 }
 
+
 def clean(s: str) -> str:
     return " ".join(s.split()).strip()
+
 
 def normalize_event_name(list_text: str) -> str:
     """
@@ -51,13 +54,16 @@ def normalize_event_name(list_text: str) -> str:
     # 何も残らない事故の保険
     return s or clean(list_text)
 
+
 def fetch(url: str, session: requests.Session) -> str:
     r = session.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
     r.raise_for_status()
     return r.text
 
+
 def schedule_page_url(page: int) -> str:
     return SCHEDULE if page == 1 else f"{SCHEDULE}?page={page}"
+
 
 def parse_list_page(html: str) -> list[dict]:
     """
@@ -65,7 +71,7 @@ def parse_list_page(html: str) -> list[dict]:
     ここで確定した日付/名前は後段で絶対に変えない（ただし名前は一覧文字列を整形したもの）。
     """
     soup = BeautifulSoup(html, "html.parser")
-    items = []
+    items: list[dict] = []
 
     for a in soup.select("a[href]"):
         href = (a.get("href") or "").strip()
@@ -97,7 +103,7 @@ def parse_list_page(html: str) -> list[dict]:
 
     # 同一ページ内重複除去（順序維持）
     seen = set()
-    out = []
+    out: list[dict] = []
     for it in items:
         key = (it["y"], it["m"], it["d"], it["name"], it["url"])
         if key in seen:
@@ -105,6 +111,7 @@ def parse_list_page(html: str) -> list[dict]:
         seen.add(key)
         out.append(it)
     return out
+
 
 def bad_location(s: str) -> bool:
     if not s:
@@ -115,6 +122,7 @@ def bad_location(s: str) -> bool:
     if low.startswith("http"):
         return True
     return False
+
 
 def extract_location_from_detail(html: str) -> str | None:
     """
@@ -141,7 +149,10 @@ def extract_location_from_detail(html: str) -> str | None:
                             return cand
     return None
 
-def main():
+
+def main() -> None:
+    os.makedirs("docs", exist_ok=True)
+
     session = requests.Session()
 
     # 1) 一覧を全ページ走査して「日付・名前・詳細URL」を確定収集
@@ -162,7 +173,6 @@ def main():
             collected.append(it)
             new += 1
 
-        # 新規がゼロなら終端
         if new == 0:
             break
 
@@ -182,29 +192,24 @@ def main():
             time.sleep(0.3)
 
         e = Event()
-        e.name = it["name"]  # 一覧準拠（整形済み）
+        e.name = it["name"]
         e.begin = f"{it['y']:04d}-{it['m']:02d}-{it['d']:02d}"
         e.make_all_day()
         e.url = url
-        e.description = ""   # メモ欄は空（URL欄だけ使う）
+        e.description = ""  # メモ欄は空（URL欄だけ使う）
+
         loc = location_cache[url]
         if loc:
             e.location = loc
 
-        # 同名同日でもURLが違うケースを想定してUIDを安定化
         e.uid = f"{it['y']:04d}{it['m']:02d}{it['d']:02d}:{url}"
-
         cal.events.add(e)
 
-ics_text = "".join(cal.serialize_iter())
+    ics_text = "".join(cal.serialize_iter())
 
-# 既存互換（今までのURL）
-with open("docs/calendar.ics", "w", encoding="utf-8") as f:
-    f.write(ics_text)
+    with open("docs/sms-schedule.ics", "w", encoding="utf-8") as f:
+        f.write(ics_text)
 
-# 新URL（分かりやすい名前）
-with open("docs/sms-schedule.ics", "w", encoding="utf-8") as f:
-    f.write(ics_text)
 
 if __name__ == "__main__":
     main()
