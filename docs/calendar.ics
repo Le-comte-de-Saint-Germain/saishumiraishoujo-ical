@@ -2,63 +2,165 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260209
-SUMMARY:2026.02.09 [Mon] LIVE HEROINES FES -ちょっぴり早いバレンタインDAY!-
-UID:520c998e-6860-4009-b1c0-0d5365f60a9f@520c.org
-URL:https://www.saishumiraishoujo.com/schedule/62af7283-d0a8-4393-b1de-67adc3f4f8d5
+DTSTART;VALUE=DATE:20260515
+SUMMARY:2026.05.15 [Fri] LIVE 最終未来少女 1st TOUR（タイトル未定）in 名古屋・E.L.L
+UID:86b3bfee-9c7c-4728-976e-47c510e1e77f@86b3.org
+URL:https://www.saishumiraishoujo.com/schedule/72406776-29dc-4bd8-ac03-eaca9d7d03f7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+SUMMARY:2026.03.08 [Sun] LIVE IDORISE!! FESTIVAL 2026
+UID:5b8c8c57-adfb-496b-8b1c-f5c9592537ba@5b8c.org
+URL:https://www.saishumiraishoujo.com/schedule/071c7cc9-dfe2-4134-a1b7-c641581c80f2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+SUMMARY:2026.06.12 [Fri] LIVE 最終未来少女 1st TOUR（タイトル未定）in 福岡・DRUM Be-1
+UID:bbab163c-1fc7-41f7-bbc2-5ff2b5ad7341@bbab.org
+URL:https://www.saishumiraishoujo.com/schedule/bf05e1c6-1fa7-401d-be4e-8e872431d946
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260203
 SUMMARY:2026.02.03 [Tue] LIVE ふぃくふぇす！circuit2026
-UID:b7b53955-62a5-4d47-80c3-dad04e18c7ce@b7b5.org
+UID:890700ef-fd5d-4560-add7-3e3c537c9f1e@8907.org
 URL:https://www.saishumiraishoujo.com/schedule/6fd60dd5-3948-473a-98f0-2a6b97f394b0
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260211
-SUMMARY:2026.02.11 [Wed] LIVE HEROINES February
-UID:12d95daa-5bbd-4b14-b2f0-babad960cab9@12d9.org
-URL:https://www.saishumiraishoujo.com/schedule/3fcb2003-a9e8-4996-8f47-547536da9413
+DTSTART;VALUE=DATE:20260529
+SUMMARY:2026.05.29 [Fri] LIVE 最終未来少女 1st TOUR（タイトル未定）in 北海道・cube garden
+UID:da79e965-aaee-4552-9af5-25300a281a5b@da79.org
+URL:https://www.saishumiraishoujo.com/schedule/fb5a1523-fe55-4728-b31f-ef6a3ec600d5
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260219
-SUMMARY:2026.02.19 [Thu] LIVE らん先生のといらんど
-UID:af0026b0-9e04-40b7-ae16-ef917ccb8329@af00.org
-URL:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
+DTSTART;VALUE=DATE:20260327
+SUMMARY:2026.03.27 [Fri] LIVE イベント予定
+UID:e54aa769-15b9-4243-907c-52298ed5dce4@e54a.org
+URL:https://www.saishumiraishoujo.com/schedule/db4ed6d1-4324-4e9d-b0b4-7b6f4295a6bc
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260228
-SUMMARY:2026.02.28 [Sat] LIVE Pretty Chuu presents 『Lady♡Chuu』
-UID:dae4cfc4-0da3-4354-861f-457439517c49@dae4.org
-URL:https://www.saishumiraishoujo.com/schedule/378b2e21-2dc7-4ea1-af9e-7a667db8297a
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260201
-SUMMARY:2026.02.01 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Tokyo
-UID:d0357da1-7969-46df-a05a-b026bd07b5ca@d035.org
-URL:https://www.saishumiraishoujo.com/schedule/d30b065b-801f-415c-988c-024d4da4f3a2
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260214
-SUMMARY:2026.02.14 [Sat] LIVE 最終未来少女『AI PLANET #11』-Melty Chocolate-
-UID:dddd731d-7385-47ab-bece-43227bbdb69f@dddd.org
-URL:https://www.saishumiraishoujo.com/schedule/74dda6db-9eb3-4374-a63a-2166722a1b69
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260208
-SUMMARY:2026.02.08 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Osaka
-UID:0ca47bb7-d2c8-41aa-be25-9dd2fa203935@0ca4.org
-URL:https://www.saishumiraishoujo.com/schedule/35632fd4-d3ec-4aef-b9aa-e6e48da80d0e
+DTSTART;VALUE=DATE:20260424
+SUMMARY:2026.04.24 [Fri] EVENT イベント予定
+UID:df4a0a7e-127d-4bbb-b7f6-8df15b4177ed@df4a.org
+URL:https://www.saishumiraishoujo.com/schedule/6ba4afdf-f118-4c16-a8ec-3f186050dd1e
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260301
 SUMMARY:2026.03.01 [Sun] LIVE HEROINES FES 2026
-UID:70d01d94-8534-42d8-b937-38e662bb9590@70d0.org
+UID:92787166-8f8a-4a17-afc0-793a60c40f0c@9278.org
 URL:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260219
+SUMMARY:2026.02.19 [Thu] LIVE らん先生のといらんど
+UID:11968191-331d-4625-8441-91606bba5c87@1196.org
+URL:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260311
+SUMMARY:2026.03.11 [Wed] LIVE PLAY PARADE vol.5
+UID:1771177c-b692-4e58-845c-0f419c516db8@1771.org
+URL:https://www.saishumiraishoujo.com/schedule/b05e8d00-9476-4d5c-9808-abaae9e729dc
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260208
+SUMMARY:2026.02.08 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Osaka
+UID:d4144705-11aa-4d1b-b770-23d38306ef52@d414.org
+URL:https://www.saishumiraishoujo.com/schedule/35632fd4-d3ec-4aef-b9aa-e6e48da80d0e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+SUMMARY:2026.02.01 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Tokyo
+UID:13084ace-ea82-4ec8-a2c4-251433ae0360@1308.org
+URL:https://www.saishumiraishoujo.com/schedule/d30b065b-801f-415c-988c-024d4da4f3a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+SUMMARY:2026.04.06 [Mon] LIVE イベント予定
+UID:b2dc770d-a8db-43e1-b5e2-10941de2e210@b2dc.org
+URL:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+SUMMARY:2026.04.11 [Sat] LIVE イベント予定
+UID:1acaa973-a4ee-40c4-91fd-aafab01b8fc0@1aca.org
+URL:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260214
+SUMMARY:2026.02.14 [Sat] LIVE 最終未来少女『AI PLANET #11』-Melty Chocolate-
+UID:d7656c42-abd8-4f48-a71d-9a558511610a@d765.org
+URL:https://www.saishumiraishoujo.com/schedule/74dda6db-9eb3-4374-a63a-2166722a1b69
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+SUMMARY:2026.03.21 [Sat] LIVE 最終未来少女『AI PLANET #12 -AI SCHOOL-』
+UID:3ab61907-b661-4614-8dd9-8ab6bce60430@3ab6.org
+URL:https://www.saishumiraishoujo.com/schedule/3db39600-9f0c-4983-8b5e-6f21352f45e5
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260207
 SUMMARY:2026.02.07 [Sat] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Nagoya
-UID:7ff07577-e324-413a-8fa5-86274f1fa5c1@7ff0.org
+UID:89904162-c082-4ce3-8937-cf0211a9552a@8990.org
 URL:https://www.saishumiraishoujo.com/schedule/849ea1d0-1b6f-498c-9cd8-618cfa9691b2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260209
+SUMMARY:2026.02.09 [Mon] LIVE HEROINES FES -ちょっぴり早いバレンタインDAY!-
+UID:0e47e83b-1bdd-4eb7-a5b8-0e3a34d483a0@0e47.org
+URL:https://www.saishumiraishoujo.com/schedule/62af7283-d0a8-4393-b1de-67adc3f4f8d5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+SUMMARY:2026.03.03 [Tue] LIVE HEROINES主催公演『ひなまつりライブ』
+UID:f06dab30-f1ca-4313-9062-5955ebd13e9d@f06d.org
+URL:https://www.saishumiraishoujo.com/schedule/5c68338e-8863-4e78-aab2-5dc96a7f0c1e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260228
+SUMMARY:2026.02.28 [Sat] LIVE Pretty Chuu presents 『Lady♡Chuu』
+UID:cf9e78bc-6e4b-42e0-b0e2-c2d0aac5fc98@cf9e.org
+URL:https://www.saishumiraishoujo.com/schedule/378b2e21-2dc7-4ea1-af9e-7a667db8297a
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260404
+SUMMARY:2026.04.04 [Sat] EVENT イベント予定
+UID:2f730789-e988-46b4-9bf7-e0b477f1bc83@2f73.org
+URL:https://www.saishumiraishoujo.com/schedule/75b1b096-46d1-4c25-9b99-f0ded4f254ff
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260506
+SUMMARY:2026.05.06 [Wed] LIVE イベント予定
+UID:4667aec6-4e4f-440b-9bb3-af5cd639e185@4667.org
+URL:https://www.saishumiraishoujo.com/schedule/297a4674-4ed7-41eb-a208-366686ec63e9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+SUMMARY:2026.03.07 [Sat] LIVE TVAマスコミ卒業制作【最終未来少女】スペシャルライブ 『めたもるふぉーぜ！』
+UID:172bff84-e35c-494c-b463-0d294e40400a@172b.org
+URL:https://www.saishumiraishoujo.com/schedule/6ed470a4-92c1-4519-86aa-eee9f23d376f
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+SUMMARY:2026.03.20 [Fri] EVENT ［祝・新成人］Tenちゃんのハタチ宣言！〜世界で1番しあわせな成人式〜
+UID:ce6fbabd-b249-4858-8724-1b0e86c7fdae@ce6f.org
+URL:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+SUMMARY:2026.06.06 [Sat] LIVE 最終未来少女 1st TOUR（タイトル未定）in 大阪・バナナホール
+UID:7bccb5eb-5225-4f94-aaf2-375839f22e92@7bcc.org
+URL:https://www.saishumiraishoujo.com/schedule/25cc0cbe-e341-4078-86a5-1124ed9e6258
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+SUMMARY:2026.07.10 [Fri] LIVE 最終未来少女 1st TOUR（タイトル未定）in 東京・ステラボール
+UID:1c453b4a-3338-42f3-aff1-03264984ef2b@1c45.org
+URL:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260211
+SUMMARY:2026.02.11 [Wed] LIVE HEROINES February
+UID:13b734b4-e26f-4dcd-960d-bd6856636d54@13b7.org
+URL:https://www.saishumiraishoujo.com/schedule/3fcb2003-a9e8-4996-8f47-547536da9413
 END:VEVENT
 END:VCALENDAR
