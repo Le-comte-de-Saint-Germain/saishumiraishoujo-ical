@@ -28,7 +28,7 @@ def main():
         seen.add(key)
 
         # テキスト内に YYYY/MM/DD があるものだけ拾う（最小版）
-        m = re.search(r"(\d{4})[/-](\d{1,2})[/-](\d{1,2})", text)
+        m = re.search(r"(\d{4})[./-](\d{1,2})[./-](\d{1,2})", text)
         if not m:
             continue
         y, mo, d = map(int, m.groups())
