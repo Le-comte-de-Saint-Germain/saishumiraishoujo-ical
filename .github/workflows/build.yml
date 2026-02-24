@@ -1,7 +1,8 @@
 name: build-ics
+
 on:
   schedule:
-  - cron: "*/5 * * * *"
+    - cron: "7 18 * * *"   # JST 03:07（UTC基準。00分混雑を避ける）
   workflow_dispatch:
 
 permissions:
@@ -23,4 +24,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/*.ics
-          git diff --cached --quiet || (git commit -m "Update calendar.ics" && git push)
+          git diff --cached --quiet || (git commit -m "Update schedule.ics" && git push)
