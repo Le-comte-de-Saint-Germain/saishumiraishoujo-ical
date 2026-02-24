@@ -1,8 +1,15 @@
 name: build-ics
 
 on:
+  # 検証用：コミットした瞬間に自動実行（すぐ確認できる）
+  push:
+    branches: [ main ]
+
+  # 本番用：毎日JST 03:07（UTC 18:07）
   schedule:
-    - cron: "2/5 * * * *"   # 5分おき（:02, :07, :12…）/ 最短・混雑回避
+    - cron: "7 18 * * *"
+
+  # 手動実行
   workflow_dispatch:
 
 permissions:
@@ -13,17 +20,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - run: python generate_ics.py
-
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
