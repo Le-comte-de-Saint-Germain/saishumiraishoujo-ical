@@ -1,7 +1,7 @@
 name: build-ics
 on:
   schedule:
-    - cron: "0 18 * * *"  # JST 03:00（GitHubはUTC）
+  - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
