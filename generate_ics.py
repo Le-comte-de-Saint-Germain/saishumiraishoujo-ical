@@ -196,8 +196,15 @@ def main():
 
         cal.events.add(e)
 
-    with open("docs/calendar.ics", "w", encoding="utf-8") as f:
-        f.writelines(cal.serialize_iter())
+ics_text = "".join(cal.serialize_iter())
+
+# 既存互換（今までのURL）
+with open("docs/calendar.ics", "w", encoding="utf-8") as f:
+    f.write(ics_text)
+
+# 新URL（分かりやすい名前）
+with open("docs/sms-schedule.ics", "w", encoding="utf-8") as f:
+    f.write(ics_text)
 
 if __name__ == "__main__":
     main()
