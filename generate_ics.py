@@ -7,10 +7,8 @@ from ics import Calendar, Event
 BASE = "https://www.saishumiraishoujo.com"
 SCHEDULE = BASE + "/schedule"
 
-# 例: 2026.02.01 / 2026/2/1 / 2026-02-01 / 2026年2月1日
-DATE_ANY_RE = re.compile(
-    r"(?P<y>\d{4})\s*(?:[./-]|年)\s*(?P<m>\d{1,2})\s*(?:[./-]|月)\s*(?P<d>\d{1,2})\s*(?:日)?"
-)
+# 一覧に出る日付（例: 2026.02.01 / 2026/02/01 / 2026-02-01）
+LIST_DATE_RE = re.compile(r"(\d{4})[./-](\d{1,2})[./-](\d{1,2})")
 
 # /schedule/<uuid> だけを許可（一覧 /schedule は除外）
 UUID_PATH_RE = re.compile(
@@ -28,9 +26,13 @@ def fetch(url: str, session: requests.Session) -> str:
 def schedule_page_url(page: int) -> str:
     return SCHEDULE if page == 1 else f"{SCHEDULE}?page={page}"
 
-def extract_detail_urls(html: str) -> list[str]:
+def parse_list_page(html: str) -> list[dict]:
+    """
+    一覧ページから「日付・表示名・詳細URL」を抽出する。
+    ここで確定した日付/名前は後段で絶対に変えない。
+    """
     soup = BeautifulSoup(html, "html.parser")
-    urls = []
+    items = []
 
     for a in soup.select("a[href]"):
         href = (a.get("href") or "").strip()
@@ -44,16 +46,31 @@ def extract_detail_urls(html: str) -> list[str]:
         if not UUID_PATH_RE.match(href):
             continue
 
-        urls.append(BASE + href)
+        text = clean(a.get_text(" ", strip=True))
+        if not text:
+            continue
 
-    # 重複除去（順序維持）
+        # 日付は「一覧テキスト」からだけ拾う（詳細ページの投稿日等を拾わない）
+        m = LIST_DATE_RE.search(text)
+        if not m:
+            continue
+        y, mo, d = map(int, m.groups())
+
+        items.append({
+            "y": y, "m": mo, "d": d,
+            "name": text,              # 一覧に見えている文字列をそのまま（変更しない）
+            "url": BASE + href,        # 詳細URL
+        })
+
+    # 同一ページ内重複除去（順序維持）
     seen = set()
     out = []
-    for u in urls:
-        if u in seen:
+    for it in items:
+        key = (it["y"], it["m"], it["d"], it["name"], it["url"])
+        if key in seen:
             continue
-        seen.add(u)
-        out.append(u)
+        seen.add(key)
+        out.append(it)
     return out
 
 def bad_location(s: str) -> bool:
@@ -66,11 +83,15 @@ def bad_location(s: str) -> bool:
         return True
     return False
 
-def extract_location_from_lines(lines: list[str]) -> str | None:
+def extract_location_from_detail(html: str) -> str | None:
     """
-    ページ全体テキスト(lines)から会場っぽい文字列を拾う。
-    ラベルと値が別行でも拾う（次行～数行を探索）。
+    詳細ページからLOCATIONだけ取る。
+    日付やタイトルは一切取らない。
     """
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text("\n", strip=True)
+    lines = [clean(ln) for ln in text.split("\n") if clean(ln)]
+
     labels = ["開催場所・会場", "開催場所", "会場"]
 
     for label in labels:
@@ -79,95 +100,69 @@ def extract_location_from_lines(lines: list[str]) -> str | None:
                 after = clean(ln.split(label, 1)[1])
                 if after and not bad_location(after):
                     return after
-                # 次行以降に値がある場合（map/URLなどを飛ばす）
-                for j in range(1, 5):
+                # 次行以降に値が来る場合（map/URL等を飛ばす）
+                for j in range(1, 6):
                     if i + j < len(lines):
                         cand = clean(lines[i + j])
                         if cand and not bad_location(cand):
                             return cand
     return None
 
-def parse_detail(html: str) -> dict:
-    soup = BeautifulSoup(html, "html.parser")
-
-    # タイトル：OGP（og:title）優先。無ければ<title>。
-    title = None
-    og = soup.select_one('meta[property="og:title"]')
-    if og and og.get("content"):
-        title = clean(og["content"])
-    if not title and soup.title and soup.title.string:
-        title = clean(soup.title.string)
-    if not title:
-        title = "Schedule"
-
-    # 全文行（LOCATIONと日付は全文から拾う：抜けを最小化）
-    text = soup.get_text("\n", strip=True)
-    raw_lines = [clean(ln) for ln in text.split("\n") if clean(ln)]
-
-    # 日付（複数日対応）
-    dates = []
-    seen = set()
-    for ln in raw_lines:
-        for m in DATE_ANY_RE.finditer(ln):
-            y, mo, d = int(m.group("y")), int(m.group("m")), int(m.group("d"))
-            key = (y, mo, d)
-            if key in seen:
-                continue
-            seen.add(key)
-            dates.append(key)
-
-    location = extract_location_from_lines(raw_lines)
-
-    return {"title": title, "dates": dates, "location": location}
-
 def main():
     session = requests.Session()
 
-    # 一覧を全ページ走査して詳細URL収集
-    detail_urls: list[str] = []
-    seen_urls = set()
-    page = 1
+    # 1) 一覧を全ページ走査して「日付・名前・詳細URL」を確定収集
+    collected: list[dict] = []
+    seen_keys = set()
 
+    page = 1
     while True:
         html = fetch(schedule_page_url(page), session)
-        urls = extract_detail_urls(html)
+        items = parse_list_page(html)
 
         new = 0
-        for u in urls:
-            if u in seen_urls:
+        for it in items:
+            key = (it["y"], it["m"], it["d"], it["name"], it["url"])
+            if key in seen_keys:
                 continue
-            seen_urls.add(u)
-            detail_urls.append(u)
+            seen_keys.add(key)
+            collected.append(it)
             new += 1
 
+        # 新規がゼロなら終端
         if new == 0:
             break
 
         page += 1
         time.sleep(0.5)
 
+    # 2) 詳細ページは LOCATION 取得だけに使う（名前・日付は変更しない）
+    #    同じ詳細URLは何度も取りに行かない（フェス等で日付違いがあっても会場は共通で良い）
+    location_cache: dict[str, str | None] = {}
+
     cal = Calendar()
 
-    for url in detail_urls:
-        html = fetch(url, session)
-        info = parse_detail(html)
+    for it in collected:
+        url = it["url"]
+        if url not in location_cache:
+            detail_html = fetch(url, session)
+            location_cache[url] = extract_location_from_detail(detail_html)
+            time.sleep(0.3)
 
-        # 日付が無い（後日発表等）はスキップ（必要なら別扱いに拡張可）
-        if not info["dates"]:
-            continue
+        e = Event()
+        e.name = it["name"]  # 一覧準拠（固定）
+        e.begin = f"{it['y']:04d}-{it['m']:02d}-{it['d']:02d}"
+        e.make_all_day()
+        e.url = url
+        e.description = ""   # メモ欄は空（URL欄だけ使う）
+        loc = location_cache[url]
+        if loc:
+            e.location = loc
 
-        for (y, m, d) in info["dates"]:
-            e = Event()
-            e.name = info["title"]
-            e.begin = f"{y:04d}-{m:02d}-{d:02d}"
-            e.make_all_day()
-            e.url = url
-            e.description = ""  # メモ欄は空（URL欄だけ使う）
-            if info["location"]:
-                e.location = info["location"]
-            cal.events.add(e)
+        # 同名同日でもURLが違うケースを想定してUIDを安定化（任意だが安全）
+        e.uid = f"{it['y']:04d}{it['m']:02d}{it['d']:02d}:{url}"
 
-        time.sleep(0.3)
+        cal.events.add(e)
 
     with open("docs/calendar.ics", "w", encoding="utf-8") as f:
         f.writelines(cal.serialize_iter())
