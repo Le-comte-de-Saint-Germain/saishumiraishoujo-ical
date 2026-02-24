@@ -15,8 +15,41 @@ UUID_PATH_RE = re.compile(
     r"^/schedule/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
 )
 
+# タイトル先頭の余計な部分を落とす
+TITLE_PREFIX_RE = re.compile(
+    r"^\s*(\d{4}[./-]\d{1,2}[./-]\d{1,2})\s*(\[[A-Za-z]{3}\])?\s*",
+    re.IGNORECASE
+)
+
+# 先頭1語だけ落とす対象（ALL以外のタブ）
+LABELS_TO_STRIP = {
+    "LIVE", "EVENT", "TV", "RADIO", "MAGAZINE", "OTHER",
+}
+
 def clean(s: str) -> str:
     return " ".join(s.split()).strip()
+
+def normalize_event_name(list_text: str) -> str:
+    """
+    例: '2026.02.01 [SUN] EVENT 〜タイトル〜' -> '〜タイトル〜'
+        '2026.02.01 [SUN] LIVE 〜タイトル〜'  -> '〜タイトル〜'
+    ※先頭のラベルは「1語だけ」除去。2語目以降のLIVE等は残る。
+    """
+    s = clean(list_text)
+
+    # 先頭の日付 + [SUN] を落とす
+    s = TITLE_PREFIX_RE.sub("", s).strip()
+
+    # 先頭のラベル（EVENT/LIVE/TV...）を1つだけ落とす
+    parts = s.split(maxsplit=1)
+    if parts and parts[0].upper() in LABELS_TO_STRIP:
+        s = parts[1] if len(parts) == 2 else ""
+
+    # 記号が残ることがあるので整える
+    s = s.lstrip(":-｜|–—・").strip()
+
+    # 何も残らない事故の保険
+    return s or clean(list_text)
 
 def fetch(url: str, session: requests.Session) -> str:
     r = session.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
@@ -29,7 +62,7 @@ def schedule_page_url(page: int) -> str:
 def parse_list_page(html: str) -> list[dict]:
     """
     一覧ページから「日付・表示名・詳細URL」を抽出する。
-    ここで確定した日付/名前は後段で絶対に変えない。
+    ここで確定した日付/名前は後段で絶対に変えない（ただし名前は一覧文字列を整形したもの）。
     """
     soup = BeautifulSoup(html, "html.parser")
     items = []
@@ -58,8 +91,8 @@ def parse_list_page(html: str) -> list[dict]:
 
         items.append({
             "y": y, "m": mo, "d": d,
-            "name": text,              # 一覧に見えている文字列をそのまま（変更しない）
-            "url": BASE + href,        # 詳細URL
+            "name": normalize_event_name(text),  # ★ここで整形
+            "url": BASE + href,                  # 詳細URL
         })
 
     # 同一ページ内重複除去（順序維持）
@@ -137,7 +170,6 @@ def main():
         time.sleep(0.5)
 
     # 2) 詳細ページは LOCATION 取得だけに使う（名前・日付は変更しない）
-    #    同じ詳細URLは何度も取りに行かない（フェス等で日付違いがあっても会場は共通で良い）
     location_cache: dict[str, str | None] = {}
 
     cal = Calendar()
@@ -150,7 +182,7 @@ def main():
             time.sleep(0.3)
 
         e = Event()
-        e.name = it["name"]  # 一覧準拠（固定）
+        e.name = it["name"]  # 一覧準拠（整形済み）
         e.begin = f"{it['y']:04d}-{it['m']:02d}-{it['d']:02d}"
         e.make_all_day()
         e.url = url
@@ -159,7 +191,7 @@ def main():
         if loc:
             e.location = loc
 
-        # 同名同日でもURLが違うケースを想定してUIDを安定化（任意だが安全）
+        # 同名同日でもURLが違うケースを想定してUIDを安定化
         e.uid = f"{it['y']:04d}{it['m']:02d}{it['d']:02d}:{url}"
 
         cal.events.add(e)
