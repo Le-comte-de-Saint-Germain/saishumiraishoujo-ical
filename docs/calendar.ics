@@ -1,4 +1,64 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260209
+SUMMARY:2026.02.09 [Mon] LIVE HEROINES FES -ちょっぴり早いバレンタインDAY!-
+UID:520c998e-6860-4009-b1c0-0d5365f60a9f@520c.org
+URL:https://www.saishumiraishoujo.com/schedule/62af7283-d0a8-4393-b1de-67adc3f4f8d5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260203
+SUMMARY:2026.02.03 [Tue] LIVE ふぃくふぇす！circuit2026
+UID:b7b53955-62a5-4d47-80c3-dad04e18c7ce@b7b5.org
+URL:https://www.saishumiraishoujo.com/schedule/6fd60dd5-3948-473a-98f0-2a6b97f394b0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260211
+SUMMARY:2026.02.11 [Wed] LIVE HEROINES February
+UID:12d95daa-5bbd-4b14-b2f0-babad960cab9@12d9.org
+URL:https://www.saishumiraishoujo.com/schedule/3fcb2003-a9e8-4996-8f47-547536da9413
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260219
+SUMMARY:2026.02.19 [Thu] LIVE らん先生のといらんど
+UID:af0026b0-9e04-40b7-ae16-ef917ccb8329@af00.org
+URL:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260228
+SUMMARY:2026.02.28 [Sat] LIVE Pretty Chuu presents 『Lady♡Chuu』
+UID:dae4cfc4-0da3-4354-861f-457439517c49@dae4.org
+URL:https://www.saishumiraishoujo.com/schedule/378b2e21-2dc7-4ea1-af9e-7a667db8297a
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+SUMMARY:2026.02.01 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Tokyo
+UID:d0357da1-7969-46df-a05a-b026bd07b5ca@d035.org
+URL:https://www.saishumiraishoujo.com/schedule/d30b065b-801f-415c-988c-024d4da4f3a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260214
+SUMMARY:2026.02.14 [Sat] LIVE 最終未来少女『AI PLANET #11』-Melty Chocolate-
+UID:dddd731d-7385-47ab-bece-43227bbdb69f@dddd.org
+URL:https://www.saishumiraishoujo.com/schedule/74dda6db-9eb3-4374-a63a-2166722a1b69
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260208
+SUMMARY:2026.02.08 [Sun] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Osaka
+UID:0ca47bb7-d2c8-41aa-be25-9dd2fa203935@0ca4.org
+URL:https://www.saishumiraishoujo.com/schedule/35632fd4-d3ec-4aef-b9aa-e6e48da80d0e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260301
+SUMMARY:2026.03.01 [Sun] LIVE HEROINES FES 2026
+UID:70d01d94-8534-42d8-b937-38e662bb9590@70d0.org
+URL:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260207
+SUMMARY:2026.02.07 [Sat] EVENT #らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Nagoya
+UID:7ff07577-e324-413a-8fa5-86274f1fa5c1@7ff0.org
+URL:https://www.saishumiraishoujo.com/schedule/849ea1d0-1b6f-498c-9cd8-618cfa9691b2
+END:VEVENT
 END:VCALENDAR
