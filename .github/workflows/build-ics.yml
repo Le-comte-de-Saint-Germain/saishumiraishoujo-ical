@@ -1,6 +1,8 @@
 name: build-ics
 
 on:
+  schedule:
+    - cron: "3,13,23,33,43,53 * * * *"  # テスト用：毎時 03/13/23/33/43/53（UTC）
   workflow_dispatch:
 
 permissions:
@@ -11,13 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - run: python generate_ics.py
+
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
