@@ -102,12 +102,6 @@ UID:20260710:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-
 URL:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260327
-SUMMARY:イベント予定
-UID:20260327:https://www.saishumiraishoujo.com/schedule/db4ed6d1-4324-4e9d-b0b4-7b6f4295a6bc
-URL:https://www.saishumiraishoujo.com/schedule/db4ed6d1-4324-4e9d-b0b4-7b6f4295a6bc
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
 SUMMARY:イベント予定
 UID:20260411:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
@@ -121,10 +115,24 @@ UID:20260219:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-
 URL:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260328
+LOCATION:BPセントラルスペース南船場 2F(大阪府大阪市中央区南船場4丁目8−6 2F)
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【AI SCHOOL編】
+UID:20260328:https://www.saishumiraishoujo.com/schedule/614caeff-5313-45d2-af3f-e593b9c7db2c
+URL:https://www.saishumiraishoujo.com/schedule/614caeff-5313-45d2-af3f-e593b9c7db2c
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260404
 SUMMARY:イベント予定
 UID:20260404:https://www.saishumiraishoujo.com/schedule/75b1b096-46d1-4c25-9b99-f0ded4f254ff
 URL:https://www.saishumiraishoujo.com/schedule/75b1b096-46d1-4c25-9b99-f0ded4f254ff
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260327
+LOCATION:梅田 BANGBOO（大阪府大阪市北区堂山町6-5 ペンギンスクエアビルB1F、B2F）
+SUMMARY:最終未来少女『AI PLANET in 大阪 #4』
+UID:20260327:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-a2f512b7421e
+URL:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-a2f512b7421e
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
