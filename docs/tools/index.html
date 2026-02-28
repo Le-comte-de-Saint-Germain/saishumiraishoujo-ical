@@ -15,7 +15,7 @@
       background: transparent;
     }
 
-    /* 背景：絶対URLで固定（相対パス事故を根絶） */
+    /* 背景：絶対URLで固定 */
     body::before{
       content:"";
       position: fixed;
@@ -26,11 +26,11 @@
       transform: translateZ(0);
     }
 
-    /* 上から1/3にタイトル（中央揃え） */
+    /* タイトル：上から1/5（20%） */
     .title{
       position: fixed;
       left: 50%;
-      top: 33.333svh;
+      top: 20svh;
       transform: translate(-50%, -50%);
       margin: 0;
       text-align: center;
@@ -45,7 +45,7 @@
     .nowrap{ white-space: nowrap; }
     .gap{ display:block; height:.5em; }
 
-    /* 下から1/3にボタン（中央揃え） */
+    /* ボタン：下から1/3（上から2/3）、横幅を10%削減 */
     .btn{
       position: fixed;
       left: 50%;
@@ -60,7 +60,7 @@
       padding: 16px 22px;
       border-radius: 18px;
 
-      width: min(340px, 72vw);
+      width: min(306px, 64.8vw); /* ← 340px→306px、72vw→64.8vw（各10%減） */
 
       background: rgba(255,255,255,.22);
       border: 1px solid rgba(255,255,255,.28);
