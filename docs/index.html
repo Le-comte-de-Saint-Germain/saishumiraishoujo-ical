@@ -1,1 +1,22 @@
-<html><body>やあ</body></html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>サンジェルマン伯爵</title>
+  <style>
+    html,body{height:100%; margin:0; background:#000;}
+    body{
+      position:relative;
+      background: url("./Comte_de_Saint-Germain_portrait.JPG") center/cover no-repeat;
+      overflow:hidden;
+    }
+    body::before{
+      content:"";
+      position:absolute; inset:0;
+      background: linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.55));
+    }
+  </style>
+</head>
+<body></body>
+</html>
