@@ -6,25 +6,24 @@
   <title>最終未来少女 非公式カレンダー</title>
   <style>
     *{ box-sizing: border-box; }
-
-    /* 背景は body ではなく html に貼る（iOS Safari対策） */
-    html{
-      height:100%;
-      margin:0;
-      color:#fff;
-      background-image: url("./bg.jpg?v=2");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-color:#000; /* 画像が読めない時の保険 */
-    }
+    html,body{ height:100%; margin:0; color:#fff; background:#000; }
 
     body{
-      height:100%;
-      margin:0;
-      min-height:100svh;
-      background: transparent; /* htmlの背景を見せる */
+      min-height: 100svh;
       font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+      position: relative;
+      background: transparent;
+    }
+
+    /* 背景：絶対URLで固定（相対パス事故を根絶） */
+    body::before{
+      content:"";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background: url("https://サンジェルマン伯爵.com/tools/sms-calendar/bg.jpg?v=999") center / cover no-repeat;
+      background-color:#000;
+      transform: translateZ(0);
     }
 
     /* 上から1/3にタイトル（中央揃え） */
