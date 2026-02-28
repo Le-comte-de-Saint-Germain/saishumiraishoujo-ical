@@ -6,80 +6,94 @@
   <title>最終未来少女 非公式カレンダー</title>
 
   <style>
+    *{ box-sizing: border-box; }
+
     :root{
       --bg0:#05030a;
       --bg1:#14062b;
       --bg2:#2b0a55;
       --txt:rgba(255,255,255,.92);
-      --line:rgba(255,255,255,.14);
       --btn1:#7a2cff;
       --btn2:#b06bff;
-      --shadow: 0 18px 70px rgba(0,0,0,.55);
-      --radius: 22px;
+      --line:rgba(255,255,255,.18);
     }
 
-    html,body{height:100%; margin:0;}
+    html,body{ height:100%; margin:0; }
+
     body{
+      /* iOSのアドレスバー伸縮で中心がズレにくい */
+      min-height: 100svh;
+
       display:grid;
       place-items:center;
+
+      /* 上下左右を均等に（同じ値） */
+      padding: clamp(22px, 6vw, 56px);
+
       background:
         radial-gradient(900px 600px at 18% 18%, rgba(176,107,255,.28), transparent 60%),
         radial-gradient(900px 600px at 85% 22%, rgba(122,44,255,.20), transparent 62%),
         linear-gradient(160deg, var(--bg0), var(--bg1) 48%, var(--bg2));
+
       color:var(--txt);
       font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
-      overflow:hidden;
-      padding: 28px 16px;
+      text-align:center;
     }
 
-    .card{
-      width:min(760px, 100%);
-      border:1px solid var(--line);
-      border-radius: var(--radius);
-      background: rgba(0,0,0,.22);
-      backdrop-filter: blur(12px);
-      box-shadow: var(--shadow);
-      padding: 26px 20px 22px;
-      text-align:center;
+    .wrap{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap: 18px;
     }
 
     h1{
       margin:0;
-      font-size: 22px;
-      letter-spacing: .06em;
-      font-weight: 750;
+      font-size: clamp(22px, 5.2vw, 30px);
+      letter-spacing: .08em;
+      font-weight: 800;
+      line-height: 1.35;
+      text-shadow: 0 10px 40px rgba(0,0,0,.45);
     }
 
     .btn{
-      margin-top: 18px;
-      display:block;
-      width:100%;
-      padding: 18px 16px;       /* ← ボタンを大きく */
+      /* ボタンを中央に、幅は控えめ（約2/3） */
+      width: min(420px, 66vw);
+
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+
+      padding: 18px 22px;
       border-radius: 18px;
+
       text-decoration:none;
       color: rgba(255,255,255,.96);
-      font-weight: 800;
-      font-size: 18px;          /* ← 文字も大きめ */
+
+      font-weight: 850;
+      font-size: 18px;
       letter-spacing: .06em;
-      border: 1px solid rgba(255,255,255,.18);
-      background: linear-gradient(180deg, rgba(176,107,255,.28), rgba(122,44,255,.22));
-      transition: transform .08s ease, border-color .18s ease, filter .18s ease;
+
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(176,107,255,.30), rgba(122,44,255,.22));
+
+      box-shadow: 0 18px 70px rgba(0,0,0,.45);
+      transition: transform .08s ease, filter .18s ease, border-color .18s ease;
       user-select:none;
     }
     .btn:hover{
       transform: translateY(-1px);
-      border-color: rgba(255,255,255,.32);
       filter: brightness(1.06);
+      border-color: rgba(255,255,255,.32);
     }
     .btn:active{ transform: translateY(0px); }
   </style>
 </head>
 
 <body>
-  <main class="card">
+  <main class="wrap">
     <h1>最終未来少女 非公式カレンダー</h1>
 
-    <!-- Appleカレンダー購読（webcal） -->
     <a class="btn" href="webcal://サンジェルマン伯爵.com/sms-schedule.ics">
       カレンダーを購読
     </a>
