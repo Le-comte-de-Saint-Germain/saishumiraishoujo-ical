@@ -3,79 +3,86 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Tools</title>
+  <title>最終未来少女 非公式カレンダー</title>
+
   <style>
     :root{
-      --bg:#05040a;
+      --bg0:#05030a;
+      --bg1:#14062b;
+      --bg2:#2b0a55;
       --txt:rgba(255,255,255,.92);
-      --sub:rgba(255,255,255,.62);
-      --line:rgba(255,255,255,.12);
-      --card:rgba(0,0,0,.26);
-      --acc:rgba(195,170,255,.92);
+      --line:rgba(255,255,255,.14);
+      --btn1:#7a2cff;
+      --btn2:#b06bff;
+      --shadow: 0 18px 70px rgba(0,0,0,.55);
+      --radius: 22px;
     }
+
+    html,body{height:100%; margin:0;}
     body{
-      margin:0; min-height:100vh;
-      background: radial-gradient(900px 600px at 20% 15%, rgba(120,80,255,.14), transparent 60%),
-                  radial-gradient(900px 600px at 85% 25%, rgba(70,140,255,.10), transparent 60%),
-                  var(--bg);
+      display:grid;
+      place-items:center;
+      background:
+        radial-gradient(900px 600px at 18% 18%, rgba(176,107,255,.28), transparent 60%),
+        radial-gradient(900px 600px at 85% 22%, rgba(122,44,255,.20), transparent 62%),
+        linear-gradient(160deg, var(--bg0), var(--bg1) 48%, var(--bg2));
       color:var(--txt);
       font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+      overflow:hidden;
       padding: 28px 16px;
     }
-    .wrap{ width:min(920px, 100%); margin:0 auto; }
-    h1{ margin:0 0 6px; font-size:18px; letter-spacing:.08em; font-weight:650; }
-    p{ margin:0 0 18px; color:var(--sub); font-size:14px; line-height:1.8; }
-    .grid{
-      display:grid;
-      grid-template-columns: 1fr;
-      gap:12px;
-    }
-    @media(min-width:720px){
-      .grid{ grid-template-columns: 1fr 1fr; }
-    }
-    a.card{
-      display:block;
-      text-decoration:none;
-      color:var(--txt);
+
+    .card{
+      width:min(760px, 100%);
       border:1px solid var(--line);
-      background: var(--card);
-      border-radius:18px;
-      padding:16px 16px;
-      backdrop-filter: blur(10px);
-      transition: transform .08s ease, border-color .18s ease;
+      border-radius: var(--radius);
+      background: rgba(0,0,0,.22);
+      backdrop-filter: blur(12px);
+      box-shadow: var(--shadow);
+      padding: 26px 20px 22px;
+      text-align:center;
     }
-    a.card:hover{ transform: translateY(-1px); border-color: rgba(195,170,255,.45); }
-    .title{ font-weight:650; letter-spacing:.02em; }
-    .meta{ margin-top:6px; color:var(--sub); font-size:13px; line-height:1.7; }
-    .tag{
-      display:inline-block; margin-top:10px;
-      font-size:12px; color:var(--acc);
-      border:1px solid rgba(195,170,255,.25);
-      padding:6px 10px; border-radius:999px;
+
+    h1{
+      margin:0;
+      font-size: 22px;
+      letter-spacing: .06em;
+      font-weight: 750;
     }
-    .toplink{
-      display:inline-block; margin-top:18px;
-      color:var(--sub); text-decoration:none;
-      border-bottom:1px solid rgba(255,255,255,.18);
-      padding-bottom:2px;
+
+    .btn{
+      margin-top: 18px;
+      display:block;
+      width:100%;
+      padding: 18px 16px;       /* ← ボタンを大きく */
+      border-radius: 18px;
+      text-decoration:none;
+      color: rgba(255,255,255,.96);
+      font-weight: 800;
+      font-size: 18px;          /* ← 文字も大きめ */
+      letter-spacing: .06em;
+      border: 1px solid rgba(255,255,255,.18);
+      background: linear-gradient(180deg, rgba(176,107,255,.28), rgba(122,44,255,.22));
+      transition: transform .08s ease, border-color .18s ease, filter .18s ease;
+      user-select:none;
     }
-    .toplink:hover{ border-bottom-color: rgba(255,255,255,.45); }
+    .btn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(255,255,255,.32);
+      filter: brightness(1.06);
+    }
+    .btn:active{ transform: translateY(0px); }
   </style>
 </head>
+
 <body>
-  <div class="wrap">
-    <h1>Tools</h1>
-    <p>—</p>
+  <main class="card">
+    <h1>最終未来少女 非公式カレンダー</h1>
 
-    <div class="grid">
-      <a class="card" href="./sms-calendar/">
-        <div class="title">SMS Schedule Calendar</div>
-        <div class="meta">最終未来少女のスケジュールを購読（Apple / Google）</div>
-        <span class="tag">calendar</span>
-      </a>
-    </div>
-
-    <a class="toplink" href="/">← Top</a>
-  </div>
+    <!-- Appleカレンダー購読（webcal） -->
+    <a class="btn" href="webcal://サンジェルマン伯爵.com/sms-schedule.ics">
+      カレンダーを購読
+    </a>
+  </main>
 </body>
 </html>
