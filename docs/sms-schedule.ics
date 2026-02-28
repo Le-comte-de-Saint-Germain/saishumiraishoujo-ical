@@ -1,4 +1,190 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260203
+LOCATION:Spotify O-EAST / duo MUSIC EXCHANGE / Veats SHIBUYA
+SUMMARY:ふぃくふぇす！circuit2026
+UID:20260203:https://www.saishumiraishoujo.com/schedule/6fd60dd5-3948-473a-98f0-2a6b97f394b0
+URL:https://www.saishumiraishoujo.com/schedule/6fd60dd5-3948-473a-98f0-2a6b97f394b0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260201
+LOCATION:代官山AビルB1F（東京都渋谷区代官山町20-17）
+SUMMARY:#らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Tokyo
+UID:20260201:https://www.saishumiraishoujo.com/schedule/d30b065b-801f-415c-988c-024d4da4f3a2
+URL:https://www.saishumiraishoujo.com/schedule/d30b065b-801f-415c-988c-024d4da4f3a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260307
+LOCATION:専門学校東京ビジュアルアーツ 2号館 B2F メディアホール
+SUMMARY:TVAマスコミ卒業制作【最終未来少女】スペシャルライブ 『めたもるふぉーぜ！』
+UID:20260307:https://www.saishumiraishoujo.com/schedule/6ed470a4-92c1-4519-86aa-eee9f23d376f
+URL:https://www.saishumiraishoujo.com/schedule/6ed470a4-92c1-4519-86aa-eee9f23d376f
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260303
+LOCATION:Veats SHIBUYA
+SUMMARY:HEROINES主催公演『ひなまつりライブ』
+UID:20260303:https://www.saishumiraishoujo.com/schedule/5c68338e-8863-4e78-aab2-5dc96a7f0c1e
+URL:https://www.saishumiraishoujo.com/schedule/5c68338e-8863-4e78-aab2-5dc96a7f0c1e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+LOCATION:原宿ストロボカフェ
+SUMMARY:［祝・新成人］Tenちゃんのハタチ宣言！〜世界で1番しあわせな成人式〜
+UID:20260320:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+URL:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 大阪・バナナホール
+UID:20260606:https://www.saishumiraishoujo.com/schedule/25cc0cbe-e341-4078-86a5-1124ed9e6258
+URL:https://www.saishumiraishoujo.com/schedule/25cc0cbe-e341-4078-86a5-1124ed9e6258
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260424
+SUMMARY:イベント予定
+UID:20260424:https://www.saishumiraishoujo.com/schedule/6ba4afdf-f118-4c16-a8ec-3f186050dd1e
+URL:https://www.saishumiraishoujo.com/schedule/6ba4afdf-f118-4c16-a8ec-3f186050dd1e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 北海道・cube garden
+UID:20260529:https://www.saishumiraishoujo.com/schedule/fb5a1523-fe55-4728-b31f-ef6a3ec600d5
+URL:https://www.saishumiraishoujo.com/schedule/fb5a1523-fe55-4728-b31f-ef6a3ec600d5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260214
+LOCATION:📍Music restaurant APEXIA
+SUMMARY:最終未来少女『AI PLANET #11』-Melty Chocolate-
+UID:20260214:https://www.saishumiraishoujo.com/schedule/74dda6db-9eb3-4374-a63a-2166722a1b69
+URL:https://www.saishumiraishoujo.com/schedule/74dda6db-9eb3-4374-a63a-2166722a1b69
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260209
+LOCATION:豊洲PIT
+SUMMARY:HEROINES FES -ちょっぴり早いバレンタインDAY!-
+UID:20260209:https://www.saishumiraishoujo.com/schedule/62af7283-d0a8-4393-b1de-67adc3f4f8d5
+URL:https://www.saishumiraishoujo.com/schedule/62af7283-d0a8-4393-b1de-67adc3f4f8d5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260308
+LOCATION:会場：Spotify O-EAST、Spotify O-WEST、Spotify O-nest、Spotify O-Crest、duo MUSIC EXCHANGE、WOMB、clubasia、LOFT9 Shibuya SHIBUYA RING (※9会場連動)
+SUMMARY:IDORISE!! FESTIVAL 2026
+UID:20260308:https://www.saishumiraishoujo.com/schedule/071c7cc9-dfe2-4134-a1b7-c641581c80f2
+URL:https://www.saishumiraishoujo.com/schedule/071c7cc9-dfe2-4134-a1b7-c641581c80f2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260311
+LOCATION:有楽町ヒューリックホール
+SUMMARY:PLAY PARADE vol.5
+UID:20260311:https://www.saishumiraishoujo.com/schedule/b05e8d00-9476-4d5c-9808-abaae9e729dc
+URL:https://www.saishumiraishoujo.com/schedule/b05e8d00-9476-4d5c-9808-abaae9e729dc
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260211
+LOCATION:品川ステラボール
+SUMMARY:HEROINES February
+UID:20260211:https://www.saishumiraishoujo.com/schedule/3fcb2003-a9e8-4996-8f47-547536da9413
+URL:https://www.saishumiraishoujo.com/schedule/3fcb2003-a9e8-4996-8f47-547536da9413
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 福岡・DRUM Be-1
+UID:20260612:https://www.saishumiraishoujo.com/schedule/bf05e1c6-1fa7-401d-be4e-8e872431d946
+URL:https://www.saishumiraishoujo.com/schedule/bf05e1c6-1fa7-401d-be4e-8e872431d946
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 東京・ステラボール
+UID:20260710:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
+URL:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+SUMMARY:イベント予定
+UID:20260411:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
+URL:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260219
+LOCATION:白金高輪 SELENE b2
+SUMMARY:らん先生のといらんど
+UID:20260219:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
+URL:https://www.saishumiraishoujo.com/schedule/b193517e-d350-41b5-84aa-1a0c56ec5f0d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260328
+LOCATION:BPセントラルスペース南船場 2F(大阪府大阪市中央区南船場4丁目8−6 2F)
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【AI SCHOOL編】
+UID:20260328:https://www.saishumiraishoujo.com/schedule/614caeff-5313-45d2-af3f-e593b9c7db2c
+URL:https://www.saishumiraishoujo.com/schedule/614caeff-5313-45d2-af3f-e593b9c7db2c
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260404
+SUMMARY:イベント予定
+UID:20260404:https://www.saishumiraishoujo.com/schedule/75b1b096-46d1-4c25-9b99-f0ded4f254ff
+URL:https://www.saishumiraishoujo.com/schedule/75b1b096-46d1-4c25-9b99-f0ded4f254ff
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260327
+LOCATION:梅田 BANGBOO（大阪府大阪市北区堂山町6-5 ペンギンスクエアビルB1F、B2F）
+SUMMARY:最終未来少女『AI PLANET in 大阪 #4』
+UID:20260327:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-a2f512b7421e
+URL:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-a2f512b7421e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 名古屋・E.L.L
+UID:20260515:https://www.saishumiraishoujo.com/schedule/72406776-29dc-4bd8-ac03-eaca9d7d03f7
+URL:https://www.saishumiraishoujo.com/schedule/72406776-29dc-4bd8-ac03-eaca9d7d03f7
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260208
+LOCATION:BPセントラルスペース南船場2F(大阪府大阪市中央区南船場4丁目8-6 2F)
+SUMMARY:#らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Osaka
+UID:20260208:https://www.saishumiraishoujo.com/schedule/35632fd4-d3ec-4aef-b9aa-e6e48da80d0e
+URL:https://www.saishumiraishoujo.com/schedule/35632fd4-d3ec-4aef-b9aa-e6e48da80d0e
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260321
+LOCATION:Music restaurant APEXIA
+SUMMARY:最終未来少女『AI PLANET #12 -AI SCHOOL-』
+UID:20260321:https://www.saishumiraishoujo.com/schedule/3db39600-9f0c-4983-8b5e-6f21352f45e5
+URL:https://www.saishumiraishoujo.com/schedule/3db39600-9f0c-4983-8b5e-6f21352f45e5
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260506
+SUMMARY:イベント予定
+UID:20260506:https://www.saishumiraishoujo.com/schedule/297a4674-4ed7-41eb-a208-366686ec63e9
+URL:https://www.saishumiraishoujo.com/schedule/297a4674-4ed7-41eb-a208-366686ec63e9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260207
+LOCATION:レンタルスペースALBE-名駅フリースペース-(愛知県名古屋市中村区名駅南1丁目3-14)
+SUMMARY:#らびゅらびゅりぶーと TikTok撮影会ツアー♡ in Nagoya
+UID:20260207:https://www.saishumiraishoujo.com/schedule/849ea1d0-1b6f-498c-9cd8-618cfa9691b2
+URL:https://www.saishumiraishoujo.com/schedule/849ea1d0-1b6f-498c-9cd8-618cfa9691b2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+SUMMARY:イベント予定
+UID:20260406:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
+URL:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260228
+LOCATION:横浜1000CLUB
+SUMMARY:Pretty Chuu presents 『Lady♡Chuu』
+UID:20260228:https://www.saishumiraishoujo.com/schedule/378b2e21-2dc7-4ea1-af9e-7a667db8297a
+URL:https://www.saishumiraishoujo.com/schedule/378b2e21-2dc7-4ea1-af9e-7a667db8297a
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260301
+LOCATION:LaLa arena TOKYO-BAY
+SUMMARY:HEROINES FES 2026
+UID:20260301:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
+URL:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
+END:VEVENT
 END:VCALENDAR
