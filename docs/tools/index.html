@@ -6,20 +6,28 @@
   <title>最終未来少女 非公式カレンダー</title>
   <style>
     *{ box-sizing: border-box; }
-    html,body{ height:100%; margin:0; background:#000; color:#fff; }
 
-    body{
-      min-height: 100svh;
-      font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
-
-      /* 背景画像（キャッシュ対策で ?v=1） */
-      background-image: url("./bg.jpg?v=1");
+    /* 背景は body ではなく html に貼る（iOS Safari対策） */
+    html{
+      height:100%;
+      margin:0;
+      color:#fff;
+      background-image: url("./bg.jpg?v=2");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      background-color: #000;
+      background-color:#000; /* 画像が読めない時の保険 */
     }
 
+    body{
+      height:100%;
+      margin:0;
+      min-height:100svh;
+      background: transparent; /* htmlの背景を見せる */
+      font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+    }
+
+    /* 上から1/3にタイトル（中央揃え） */
     .title{
       position: fixed;
       left: 50%;
@@ -38,6 +46,7 @@
     .nowrap{ white-space: nowrap; }
     .gap{ display:block; height:.5em; }
 
+    /* 下から1/3にボタン（中央揃え） */
     .btn{
       position: fixed;
       left: 50%;
