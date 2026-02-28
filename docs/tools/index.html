@@ -22,24 +22,21 @@
       margin: 0;
       text-align: center;
 
-      /* 最大30px。狭い/設定が怪しい環境では自動で少し縮む */
-      font-size: clamp(24px, 6vw, 30px);
+      /* 折り返し制限があるので上限を少し上げる */
+      font-size: clamp(26px, 6.4vw, 34px);
       font-weight: 850;
       letter-spacing: .08em;
-      line-height: 1.28; /* 行間は少し余裕 */
+      line-height: 1.28;
     }
 
-    /* 上段は必ず1行、下段もできるだけ1行に固定 */
     .nowrap{ white-space: nowrap; }
-
-    /* 半行分の空き（視覚的に“半行”に寄せる） */
     .gap{ display:block; height:.5em; }
 
     /* 下から1/3にボタン（中央揃え） */
     .btn{
       position: fixed;
       left: 50%;
-      top: 66.666svh;              /* 下から1/3 = 上から2/3 */
+      top: 66.666svh;
       transform: translate(-50%, -50%);
       margin: 0;
 
@@ -47,9 +44,11 @@
       align-items: center;
       justify-content: center;
 
-      padding: 18px 26px;
-      min-width: min(420px, 90vw);
+      padding: 16px 22px;
       border-radius: 18px;
+
+      /* 2割削る：前回 90vw → 72vw 相当 */
+      width: min(340px, 72vw);
 
       background: rgba(255,255,255,.22);
       border: 1px solid rgba(255,255,255,.28);
@@ -58,8 +57,9 @@
 
       font-size: 16px;
       font-weight: 850;
-      letter-spacing: .06em;
+      letter-spacing: .04em;
 
+      white-space: nowrap; /* ボタン内の折り返し禁止 */
       -webkit-tap-highlight-color: transparent;
       user-select: none;
     }
