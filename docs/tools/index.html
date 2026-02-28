@@ -11,6 +11,10 @@
     body{
       min-height: 100svh;
       font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+
+      /* ★ここだけ追加：背景画像 */
+      background: url("./bg.jpg") center / cover no-repeat fixed;
+      background-color: #000; /* 画像が読めない時の保険 */
     }
 
     /* 上から1/3にタイトル（中央揃え） */
@@ -21,9 +25,8 @@
       transform: translate(-50%, -50%);
       margin: 0;
       text-align: center;
-      color: #fff; /* ← 純白にするため追加 */
+      color: #fff;
 
-      /* 折り返し制限があるので上限を少し上げる */
       font-size: clamp(26px, 6.4vw, 34px);
       font-weight: 850;
       letter-spacing: .08em;
@@ -48,7 +51,6 @@
       padding: 16px 22px;
       border-radius: 18px;
 
-      /* 2割削る：前回 90vw → 72vw 相当 */
       width: min(340px, 72vw);
 
       background: rgba(255,255,255,.22);
@@ -60,7 +62,7 @@
       font-weight: 850;
       letter-spacing: .04em;
 
-      white-space: nowrap; /* ボタン内の折り返し禁止 */
+      white-space: nowrap;
       -webkit-tap-highlight-color: transparent;
       user-select: none;
     }
