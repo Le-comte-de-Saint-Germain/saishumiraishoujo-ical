@@ -5,129 +5,71 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>最終未来少女 非公式カレンダー</title>
   <style>
+    :root{
+      --phi: 1.61803398875;
+      --top-break: calc(100svh / var(--phi));              /* 上から 0.618...H */
+      --bottom-break: calc(100svh - (100svh / var(--phi)));/* 上から 0.382...H */
+    }
+
     *{ box-sizing: border-box; }
-    html,body{ height:100%; margin:0; background:#000; }
+    html,body{ height:100%; margin:0; background:#000; color:#fff; }
+
     body{
       min-height: 100svh;
-      display:grid;
-      place-items:center;
-      padding: clamp(18px, 4.5vw, 54px);
       font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", Arial, sans-serif;
-      color:#fff;
     }
 
-    .stage{
-      width: min(980px, 100%);
-      height: min(640px, 100svh);
-      position: relative;
-      background:#000;
-      overflow: hidden;
-    }
-
-    /* 人物：左寄せ。画像自体は切り抜き済み（白背景）なので、黒背景上に置くだけ */
-    .hero{
-      position:absolute;
-      left: 0;
-      bottom: 0;
-      height: 100%;
-      width: auto;
-      object-fit: contain;
-      /* 白背景が残っている場合の保険：軽く馴染ませる（不要なら消してOK） */
-      /* filter: drop-shadow(0 28px 70px rgba(0,0,0,.65)); */
-    }
-
-    /* タイトル：頭上付近に置く（微調整しやすい） */
-    h1{
-      position:absolute;
-      left: 54%;
-      top: 14%;
-      transform: translateX(-50%);
-      margin:0;
-      width: min(520px, 86%);
+    /* 2行タイトル：2行目の下端を黄金比境目に合わせる */
+    .title{
+      position: fixed;
+      left: 50%;
+      top: var(--top-break);
+      transform: translate(-50%, -100%); /* 下端を top に一致させる */
+      margin: 0;
       text-align: center;
-      font-size: clamp(22px, 4.8vw, 34px);
-      font-weight: 800;
+      line-height: 1.18;
       letter-spacing: .08em;
-      line-height: 1.25;
-      text-shadow: 0 10px 40px rgba(0,0,0,.65);
+      font-weight: 800;
+      font-size: clamp(26px, 6vw, 40px);
       white-space: nowrap;
     }
 
-    /* 購読ボタン：右側 */
+    /* ボタン：上端を黄金比（下から）境目に合わせる */
     .btn{
-      position:absolute;
-      right: 6%;
-      top: 52%;
-      transform: translateY(-50%);
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      padding: 18px 28px;
+      position: fixed;
+      left: 50%;
+      top: var(--bottom-break);          /* ここがボタン上端の基準 */
+      transform: translateX(-50%);
+      margin: 0;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 16px 28px;
       min-width: 220px;
-      border-radius: 18px;
+      border-radius: 16px;
 
-      text-decoration:none;
-      background: rgba(255,255,255,.22);   /* 半透明の白 */
-      border: 1px solid rgba(255,255,255,.28);
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      text-decoration: none;
 
-      color: #fff;                         /* 文字は不透明の白 */
-      font-size: 20px;
-      font-weight: 850;
-      letter-spacing: .10em;
-
-      backdrop-filter: blur(10px);
-      box-shadow: 0 18px 70px rgba(0,0,0,.55);
-      transition: transform .08s ease, background .18s ease, border-color .18s ease;
-      user-select:none;
-    }
-    .btn:hover{
-      background: rgba(255,255,255,.28);
-      border-color: rgba(255,255,255,.38);
-      transform: translateY(-50%) translateY(-1px);
-    }
-    .btn:active{
-      transform: translateY(-50%) translateY(0px);
-    }
-
-    /* スマホ：縦配置に切り替えて、見切れを避ける */
-    @media (max-width: 640px){
-      .stage{ height: min(760px, 100svh); }
-
-      .hero{
-        left: 50%;
-        transform: translateX(-55%);
-        height: 78%;
-        bottom: 0;
-      }
-
-      h1{
-        left: 50%;
-        top: 6%;
-        transform: translateX(-50%);
-        white-space: normal;
-      }
-
-      .btn{
-        left: 50%;
-        right: auto;
-        top: 84%;
-        transform: translateX(-50%);
-        min-width: min(320px, 86%);
-      }
-      .btn:hover{ transform: translateX(-50%) translateY(-1px); }
-      .btn:active{ transform: translateX(-50%) translateY(0px); }
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
     }
   </style>
 </head>
 
 <body>
-  <main class="stage" aria-label="最終未来少女 非公式カレンダー">
-    <!-- 画像パスは、実際に置いたファイル名に合わせて変更してください -->
-    <img class="hero" src="./hero.jpg" alt="" />
+  <h1 class="title">
+    最終未来少女<br>
+    非公式カレンダー
+  </h1>
 
-    <h1>最終未来少女 非公式カレンダー</h1>
-
-    <a class="btn" href="webcal://サンジェルマン伯爵.com/sms-schedule.ics">購読</a>
-  </main>
+  <a class="btn" href="webcal://サンジェルマン伯爵.com/sms-schedule.ics">購読</a>
 </body>
 </html>
