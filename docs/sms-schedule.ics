@@ -9,18 +9,11 @@ UID:20260307:https://www.saishumiraishoujo.com/schedule/6ed470a4-92c1-4519-86aa-
 URL:https://www.saishumiraishoujo.com/schedule/6ed470a4-92c1-4519-86aa-eee9f23d376f
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260606
-LOCATION:share
-SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 大阪・バナナホール
-UID:20260606:https://www.saishumiraishoujo.com/schedule/25cc0cbe-e341-4078-86a5-1124ed9e6258
-URL:https://www.saishumiraishoujo.com/schedule/25cc0cbe-e341-4078-86a5-1124ed9e6258
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260320
-LOCATION:原宿ストロボカフェ
-SUMMARY:［祝・新成人］Tenちゃんのハタチ宣言！〜世界で1番しあわせな成人式〜
-UID:20260320:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
-URL:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+DTSTART;VALUE=DATE:20260612
+LOCATION:DRUM Be-1
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
+UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260303
@@ -30,17 +23,24 @@ UID:20260303:https://www.saishumiraishoujo.com/schedule/5c68338e-8863-4e78-aab2-
 URL:https://www.saishumiraishoujo.com/schedule/5c68338e-8863-4e78-aab2-5dc96a7f0c1e
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260320
+LOCATION:原宿ストロボカフェ
+SUMMARY:［祝・新成人］Tenちゃんのハタチ宣言！〜世界で1番しあわせな成人式〜
+UID:20260320:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+URL:https://www.saishumiraishoujo.com/schedule/c1cbf934-68cb-41f3-a259-f2a78644f2a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+LOCATION:Electric Lady Land
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 名古屋・E.L.L
+UID:20260515:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
+URL:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260424
 SUMMARY:イベント予定
 UID:20260424:https://www.saishumiraishoujo.com/schedule/6ba4afdf-f118-4c16-a8ec-3f186050dd1e
 URL:https://www.saishumiraishoujo.com/schedule/6ba4afdf-f118-4c16-a8ec-3f186050dd1e
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260529
-LOCATION:share
-SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 北海道・cube garden
-UID:20260529:https://www.saishumiraishoujo.com/schedule/fb5a1523-fe55-4728-b31f-ef6a3ec600d5
-URL:https://www.saishumiraishoujo.com/schedule/fb5a1523-fe55-4728-b31f-ef6a3ec600d5
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260308
@@ -64,20 +64,6 @@ UID:20260311:https://www.saishumiraishoujo.com/schedule/b05e8d00-9476-4d5c-9808-
 URL:https://www.saishumiraishoujo.com/schedule/b05e8d00-9476-4d5c-9808-abaae9e729dc
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260612
-LOCATION:share
-SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 福岡・DRUM Be-1
-UID:20260612:https://www.saishumiraishoujo.com/schedule/bf05e1c6-1fa7-401d-be4e-8e872431d946
-URL:https://www.saishumiraishoujo.com/schedule/bf05e1c6-1fa7-401d-be4e-8e872431d946
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260710
-LOCATION:share
-SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 東京・ステラボール
-UID:20260710:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
-URL:https://www.saishumiraishoujo.com/schedule/f86caef4-3f75-4a19-ad71-aa6be307f056
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
 SUMMARY:イベント予定
 UID:20260411:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
@@ -98,11 +84,11 @@ UID:20260327:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-
 URL:https://www.saishumiraishoujo.com/schedule/ffbbd51c-2fb4-47de-acab-a2f512b7421e
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-LOCATION:share
-SUMMARY:最終未来少女 1st TOUR（タイトル未定）in 名古屋・E.L.L
-UID:20260515:https://www.saishumiraishoujo.com/schedule/72406776-29dc-4bd8-ac03-eaca9d7d03f7
-URL:https://www.saishumiraishoujo.com/schedule/72406776-29dc-4bd8-ac03-eaca9d7d03f7
+DTSTART;VALUE=DATE:20260710
+LOCATION:ステラボール
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
+UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
+URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260321
@@ -118,10 +104,24 @@ UID:20260506:https://www.saishumiraishoujo.com/schedule/297a4674-4ed7-41eb-a208-
 URL:https://www.saishumiraishoujo.com/schedule/297a4674-4ed7-41eb-a208-366686ec63e9
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+LOCATION:バナナホール
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 大阪・バナナホール
+UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
+URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260406
 SUMMARY:イベント予定
 UID:20260406:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
 URL:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260529
+LOCATION:cube garden
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 北海道・cube garden
+UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
+URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260301
