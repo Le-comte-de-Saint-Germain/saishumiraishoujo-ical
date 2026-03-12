@@ -111,12 +111,6 @@ UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-
 URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260406
-SUMMARY:イベント予定
-UID:20260406:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
-URL:https://www.saishumiraishoujo.com/schedule/35c33992-6192-4d3f-a043-53e8079e3a02
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260529
 LOCATION:cube garden
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 北海道・cube garden
@@ -129,5 +123,12 @@ LOCATION:LaLa arena TOKYO-BAY
 SUMMARY:HEROINES FES 2026
 UID:20260301:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
 URL:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260406
+LOCATION:白金高輪SELENE b2
+SUMMARY:#DSPMLIVE presents「CONNECT LIVE」
+UID:20260406:https://www.saishumiraishoujo.com/schedule/3b3605a7-ca28-459f-b851-9f90c0039767
+URL:https://www.saishumiraishoujo.com/schedule/3b3605a7-ca28-459f-b851-9f90c0039767
 END:VEVENT
 END:VCALENDAR
