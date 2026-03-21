@@ -23,6 +23,13 @@ UID:20260515:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-
 URL:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260411
+LOCATION:Music restaurant APEXIA
+SUMMARY:最終未来少女『AI PLANET #13 -Birthday Re:boot-』
+UID:20260411:https://www.saishumiraishoujo.com/schedule/9241b0a3-9da1-4855-8bb6-a76c624c9b73
+URL:https://www.saishumiraishoujo.com/schedule/9241b0a3-9da1-4855-8bb6-a76c624c9b73
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260404
 LOCATION:品川インターシティホール
 SUMMARY:HYPE IDOL！
@@ -98,12 +105,6 @@ LOCATION:LaLa arena TOKYO-BAY
 SUMMARY:HEROINES FES 2026
 UID:20260301:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
 URL:https://www.saishumiraishoujo.com/schedule/3e8b54ff-4f66-46d8-8e71-b7279fc022bb
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-SUMMARY:イベント予定
-UID:20260411:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
-URL:https://www.saishumiraishoujo.com/schedule/f9fa6970-a119-4649-944b-8340d4c92865
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260424
