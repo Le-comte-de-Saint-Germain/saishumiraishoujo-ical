@@ -93,6 +93,13 @@ UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-
 URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260412
+LOCATION:GARDEN新木場FACTORY
+SUMMARY:「HEROINES April」
+UID:20260412:https://www.saishumiraishoujo.com/schedule/c44dc8ae-ad03-4447-84aa-b189fcef0d67
+URL:https://www.saishumiraishoujo.com/schedule/c44dc8ae-ad03-4447-84aa-b189fcef0d67
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260321
 LOCATION:Music restaurant APEXIA
 SUMMARY:最終未来少女『AI PLANET #12 -AI SCHOOL-』
