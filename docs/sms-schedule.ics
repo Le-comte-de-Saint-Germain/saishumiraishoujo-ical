@@ -9,6 +9,20 @@ UID:20260424:https://www.saishumiraishoujo.com/schedule/869ed2be-7c04-4db1-af1f-
 URL:https://www.saishumiraishoujo.com/schedule/869ed2be-7c04-4db1-af1f-a93f92c13411
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260502
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
+UID:20260502:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
+URL:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260503
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
+UID:20260503:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
+URL:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
 LOCATION:Music restaurant APEXIA
 SUMMARY:最終未来少女『AI PLANET #13 -Birthday Re:boot-』
