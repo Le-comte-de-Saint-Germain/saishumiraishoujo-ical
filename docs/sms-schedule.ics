@@ -86,6 +86,13 @@ UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-
 URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260423
+LOCATION:白金高輪 SELENE b2
+SUMMARY:Pretty Chuu presents 『Pretty parade Vol.6』
+UID:20260423:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-3baa48d89ea2
+URL:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-3baa48d89ea2
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
 LOCATION:Electric Lady Land
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 名古屋・E.L.L
