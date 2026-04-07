@@ -44,6 +44,13 @@ UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-
 URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260428
+LOCATION:Veats SHIBUYA
+SUMMARY:「超かわ10MANライブ」
+UID:20260428:https://www.saishumiraishoujo.com/schedule/9fa3a227-1bdd-49b9-865c-77bdf706a2a8
+URL:https://www.saishumiraishoujo.com/schedule/9fa3a227-1bdd-49b9-865c-77bdf706a2a8
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260705
 LOCATION:幕張海浜公園Gブロック特設会場
 SUMMARY:『超NATSUZOME 2026』
