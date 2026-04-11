@@ -37,6 +37,13 @@ UID:20260404:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-
 URL:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-779de022b5ce
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260510
+LOCATION:Music restaurant APEXIA
+SUMMARY:最終未来少女『AI PLANET #14 -New Signal-』
+UID:20260510:https://www.saishumiraishoujo.com/schedule/5f23cbf7-ee13-4f1c-9c9c-2873d12aaa02
+URL:https://www.saishumiraishoujo.com/schedule/5f23cbf7-ee13-4f1c-9c9c-2873d12aaa02
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260606
 LOCATION:バナナホール
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 大阪・バナナホール
