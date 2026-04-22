@@ -37,6 +37,12 @@ UID:20260404:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-
 URL:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-779de022b5ce
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+SUMMARY:イベント予定
+UID:20260523:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
+URL:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260704
 LOCATION:幕張海浜公園Gブロック特設会場
 SUMMARY:『超NATSUZOME 2026』
