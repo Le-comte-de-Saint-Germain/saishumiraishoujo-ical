@@ -77,6 +77,13 @@ UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-
 URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260516
+LOCATION:レンタルスペースALBE (愛知県名古屋市中村区名駅南1丁目3-14)
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 名古屋】
+UID:20260516:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
+URL:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260412
 LOCATION:GARDEN新木場FACTORY
 SUMMARY:「HEROINES April」
@@ -117,6 +124,13 @@ LOCATION:幕張海浜公園Gブロック特設会場
 SUMMARY:『超NATSUZOME 2026』
 UID:20260705:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-735c88352b38
 URL:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-735c88352b38
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+LOCATION:PLAT SHIBUYA(東京都渋谷区神宮前6-27-8 エムズ原宿B1)
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 東京】
+UID:20260523:https://www.saishumiraishoujo.com/schedule/4e151868-34de-4c01-ad57-5fb801b4c124
+URL:https://www.saishumiraishoujo.com/schedule/4e151868-34de-4c01-ad57-5fb801b4c124
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260516
