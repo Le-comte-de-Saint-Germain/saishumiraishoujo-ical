@@ -98,6 +98,12 @@ UID:20260423:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-
 URL:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-3baa48d89ea2
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+SUMMARY:イベント予定
+UID:20260725:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
+URL:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260411
 LOCATION:Music restaurant APEXIA
 SUMMARY:最終未来少女『AI PLANET #13 -Birthday Re:boot-』
