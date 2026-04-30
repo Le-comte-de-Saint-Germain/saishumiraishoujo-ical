@@ -2,113 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260503
-LOCATION:お台場R地区
-SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
-UID:20260503:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
-URL:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260612
-LOCATION:DRUM Be-1
-SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
-UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
-URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260515
-LOCATION:Electric Lady Land
-SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 名古屋・E.L.L
-UID:20260515:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
-URL:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260424
-LOCATION:白金高輪SELENE b2
-SUMMARY:OTONA CHILD.presents「しんでれらこんぷれっくす PART4」
-UID:20260424:https://www.saishumiraishoujo.com/schedule/869ed2be-7c04-4db1-af1f-a93f92c13411
-URL:https://www.saishumiraishoujo.com/schedule/869ed2be-7c04-4db1-af1f-a93f92c13411
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260404
-LOCATION:品川インターシティホール
-SUMMARY:HYPE IDOL！
-UID:20260404:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-779de022b5ce
-URL:https://www.saishumiraishoujo.com/schedule/b10b9533-d7a3-4e5b-8090-779de022b5ce
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260523
-SUMMARY:イベント予定
-UID:20260523:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
-URL:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260704
-LOCATION:幕張海浜公園Gブロック特設会場
-SUMMARY:『超NATSUZOME 2026』
-UID:20260704:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
-URL:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260502
-LOCATION:お台場R地区
-SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
-UID:20260502:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
-URL:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260607
-SUMMARY:イベント予定(大阪)
-UID:20260607:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
-URL:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260428
-LOCATION:Veats SHIBUYA
-SUMMARY:「超かわ10MANライブ」
-UID:20260428:https://www.saishumiraishoujo.com/schedule/9fa3a227-1bdd-49b9-865c-77bdf706a2a8
-URL:https://www.saishumiraishoujo.com/schedule/9fa3a227-1bdd-49b9-865c-77bdf706a2a8
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260710
-LOCATION:ステラボール
-SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
-UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
-URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260516
-LOCATION:レンタルスペースALBE (愛知県名古屋市中村区名駅南1丁目3-14)
-SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 名古屋】
-UID:20260516:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
-URL:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260412
-LOCATION:GARDEN新木場FACTORY
-SUMMARY:「HEROINES April」
-UID:20260412:https://www.saishumiraishoujo.com/schedule/c44dc8ae-ad03-4447-84aa-b189fcef0d67
-URL:https://www.saishumiraishoujo.com/schedule/c44dc8ae-ad03-4447-84aa-b189fcef0d67
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260423
-LOCATION:白金高輪 SELENE b2
-SUMMARY:Pretty Chuu presents 『Pretty parade Vol.6』
-UID:20260423:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-3baa48d89ea2
-URL:https://www.saishumiraishoujo.com/schedule/f39fd361-1307-4838-973d-3baa48d89ea2
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260725
 SUMMARY:イベント予定
 UID:20260725:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
 URL:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260411
-LOCATION:Music restaurant APEXIA
-SUMMARY:最終未来少女『AI PLANET #13 -Birthday Re:boot-』
-UID:20260411:https://www.saishumiraishoujo.com/schedule/9241b0a3-9da1-4855-8bb6-a76c624c9b73
-URL:https://www.saishumiraishoujo.com/schedule/9241b0a3-9da1-4855-8bb6-a76c624c9b73
+DTSTART;VALUE=DATE:20260503
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
+UID:20260503:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
+URL:https://www.saishumiraishoujo.com/schedule/60293433-291b-42bd-962b-e658608d2159
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260510
@@ -125,6 +29,18 @@ UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-
 URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+SUMMARY:イベント予定
+UID:20260523:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
+URL:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260607
+SUMMARY:イベント予定(大阪)
+UID:20260607:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
+URL:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260705
 LOCATION:幕張海浜公園Gブロック特設会場
 SUMMARY:『超NATSUZOME 2026』
@@ -139,16 +55,38 @@ UID:20260523:https://www.saishumiraishoujo.com/schedule/4e151868-34de-4c01-ad57-
 URL:https://www.saishumiraishoujo.com/schedule/4e151868-34de-4c01-ad57-5fb801b4c124
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+LOCATION:ステラボール
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
+UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
+URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260516
+LOCATION:レンタルスペースALBE (愛知県名古屋市中村区名駅南1丁目3-14)
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 名古屋】
+UID:20260516:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
+URL:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260516
 SUMMARY:イベント予定(名古屋)
 UID:20260516:https://www.saishumiraishoujo.com/schedule/f57ed4e6-75b0-4126-bec0-a07cbbcf1c40
 URL:https://www.saishumiraishoujo.com/schedule/f57ed4e6-75b0-4126-bec0-a07cbbcf1c40
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260722
-SUMMARY:イベント予定
-UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
-URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
+DTSTART;VALUE=DATE:20260612
+LOCATION:DRUM Be-1
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
+UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260704
+LOCATION:幕張海浜公園Gブロック特設会場
+SUMMARY:『超NATSUZOME 2026』
+UID:20260704:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
+URL:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260529
@@ -158,10 +96,23 @@ UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-
 URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260406
-LOCATION:白金高輪SELENE b2
-SUMMARY:#DSPMLIVE presents「CONNECT LIVE」
-UID:20260406:https://www.saishumiraishoujo.com/schedule/3b3605a7-ca28-459f-b851-9f90c0039767
-URL:https://www.saishumiraishoujo.com/schedule/3b3605a7-ca28-459f-b851-9f90c0039767
+DTSTART;VALUE=DATE:20260722
+SUMMARY:イベント予定
+UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
+URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260515
+LOCATION:Electric Lady Land
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 名古屋・E.L.L
+UID:20260515:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
+URL:https://www.saishumiraishoujo.com/schedule/50646897-33c9-4f8a-878f-cebbfe4bd508
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260502
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
+UID:20260502:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
+URL:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
 END:VEVENT
 END:VCALENDAR
