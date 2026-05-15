@@ -69,17 +69,17 @@ UID:20260516:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-
 URL:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260516
-SUMMARY:イベント予定(名古屋)
-UID:20260516:https://www.saishumiraishoujo.com/schedule/f57ed4e6-75b0-4126-bec0-a07cbbcf1c40
-URL:https://www.saishumiraishoujo.com/schedule/f57ed4e6-75b0-4126-bec0-a07cbbcf1c40
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260612
 LOCATION:DRUM Be-1
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
 UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
 URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260722
+SUMMARY:イベント予定
+UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
+URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260704
@@ -94,12 +94,6 @@ LOCATION:cube garden
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 北海道・cube garden
 UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260722
-SUMMARY:イベント予定
-UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
-URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
