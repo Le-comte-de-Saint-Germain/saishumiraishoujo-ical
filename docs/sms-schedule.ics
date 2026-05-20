@@ -29,12 +29,6 @@ UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-
 URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260523
-SUMMARY:イベント予定
-UID:20260523:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
-URL:https://www.saishumiraishoujo.com/schedule/8abccebd-4f4e-45ac-8131-eacea6d91de0
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260607
 SUMMARY:イベント予定(大阪)
 UID:20260607:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
@@ -69,6 +63,13 @@ UID:20260516:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-
 URL:https://www.saishumiraishoujo.com/schedule/4c624d76-dc0d-4933-ab3f-b3ae5f786a8b
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260607
+LOCATION:BPセントラルスペース南船場 2F
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 大阪】
+UID:20260607:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
+URL:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260612
 LOCATION:DRUM Be-1
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
@@ -82,11 +83,11 @@ UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-
 URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260704
-LOCATION:幕張海浜公園Gブロック特設会場
-SUMMARY:『超NATSUZOME 2026』
-UID:20260704:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
-URL:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
+DTSTART;VALUE=DATE:20260628
+LOCATION:ヒューリックホール東京（東京都千代田区有楽町2丁目-5-1 有楽町マリオン11F 阪急メンズ東京側）
+SUMMARY:Ten2026生誕LIVE『甜才降臨祭ー甜姫伝ー（てんさいこうりんさい てんきでん）』
+UID:20260628:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
+URL:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260529
@@ -94,6 +95,13 @@ LOCATION:cube garden
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 北海道・cube garden
 UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260704
+LOCATION:幕張海浜公園Gブロック特設会場
+SUMMARY:『超NATSUZOME 2026』
+UID:20260704:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
+URL:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
