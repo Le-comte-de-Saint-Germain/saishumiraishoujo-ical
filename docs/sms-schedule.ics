@@ -29,12 +29,6 @@ UID:20260606:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-
 URL:https://www.saishumiraishoujo.com/schedule/46221eb2-9600-4ff5-b974-293be3633cc5
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260607
-SUMMARY:イベント予定(大阪)
-UID:20260607:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
-URL:https://www.saishumiraishoujo.com/schedule/7d42c6c1-0a3b-4264-9cff-5f91f94dd3c2
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260705
 LOCATION:幕張海浜公園Gブロック特設会場
 SUMMARY:『超NATSUZOME 2026』
@@ -95,13 +89,6 @@ LOCATION:cube garden
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 北海道・cube garden
 UID:20260529:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
 URL:https://www.saishumiraishoujo.com/schedule/1cc4b2d6-43b5-4322-be08-dbfc37771101
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260704
-LOCATION:幕張海浜公園Gブロック特設会場
-SUMMARY:『超NATSUZOME 2026』
-UID:20260704:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
-URL:https://www.saishumiraishoujo.com/schedule/a043b3f0-dcbe-445d-aaf6-17eb63dfa5df
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260515
