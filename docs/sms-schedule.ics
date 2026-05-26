@@ -104,4 +104,16 @@ SUMMARY:『IDOL SUMMER JUNGLE GOLDEN』
 UID:20260502:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
 URL:https://www.saishumiraishoujo.com/schedule/cc438e6f-ffd8-4829-b139-8f17075e0876
 END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260811
+SUMMARY:イベント予定
+UID:20260811:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
+URL:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260823
+SUMMARY:イベント予定
+UID:20260823:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
+URL:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
+END:VEVENT
 END:VCALENDAR
