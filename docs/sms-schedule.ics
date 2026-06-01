@@ -77,6 +77,12 @@ UID:20260801:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-
 URL:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+SUMMARY:イベント予定
+UID:20260618:https://www.saishumiraishoujo.com/schedule/33713806-7feb-4165-9581-2103c64b8cd1
+URL:https://www.saishumiraishoujo.com/schedule/33713806-7feb-4165-9581-2103c64b8cd1
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260811
 SUMMARY:イベント予定
 UID:20260811:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
