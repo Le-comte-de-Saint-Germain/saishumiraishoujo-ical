@@ -36,6 +36,13 @@ UID:20260705:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-
 URL:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-735c88352b38
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+LOCATION:Veats SHIBUYA
+SUMMARY:「超かわ12MANライブ」
+UID:20260618:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
+URL:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260710
 LOCATION:ステラボール
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
