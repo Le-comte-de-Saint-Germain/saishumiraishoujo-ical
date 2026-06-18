@@ -70,11 +70,25 @@ UID:20260628:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-
 URL:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
+SUMMARY:「かがやきフェス2026」
+UID:20261003:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+URL:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260801
 LOCATION:お台場・青梅周辺エリア
 SUMMARY:「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」
 UID:20260801:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
 URL:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261004
+LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
+SUMMARY:「かがやきフェス2026」
+UID:20261004:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
+URL:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260618
