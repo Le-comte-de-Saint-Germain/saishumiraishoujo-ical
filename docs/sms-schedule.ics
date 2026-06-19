@@ -50,6 +50,13 @@ UID:20260607:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-
 URL:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+LOCATION:📍有明東京ドリームパーク(SGCホール有明、ドリームテラス)、TFTホール
+SUMMARY:「10年目記念で有明に引っ越しだよ！六本木アイドルフェスティバル2026」
+UID:20260725:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+URL:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260612
 LOCATION:DRUM Be-1
 SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
