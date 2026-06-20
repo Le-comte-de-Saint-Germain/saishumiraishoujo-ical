@@ -50,11 +50,11 @@ UID:20260607:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-
 URL:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-LOCATION:📍有明東京ドリームパーク(SGCホール有明、ドリームテラス)、TFTホール
-SUMMARY:「10年目記念で有明に引っ越しだよ！六本木アイドルフェスティバル2026」
-UID:20260725:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
-URL:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+DTSTART;VALUE=DATE:20260703
+LOCATION:GOBLIN.北参道店2nd
+SUMMARY:Ten生誕祭2026 甜才降臨祭 -甜姫伝- （てんさいこうりんさい てんきでん）後日特典会
+UID:20260703:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-b13bda56d0dd
+URL:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-b13bda56d0dd
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260612
@@ -77,11 +77,11 @@ UID:20260628:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-
 URL:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261003
-LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
-SUMMARY:「かがやきフェス2026」
-UID:20261003:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
-URL:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+DTSTART;VALUE=DATE:20260725
+LOCATION:📍有明東京ドリームパーク(SGCホール有明、ドリームテラス)、TFTホール
+SUMMARY:「10年目記念で有明に引っ越しだよ！六本木アイドルフェスティバル2026」
+UID:20260725:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+URL:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260801
@@ -91,17 +91,18 @@ UID:20260801:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-
 URL:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261003
+LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
+SUMMARY:「かがやきフェス2026」
+UID:20261003:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+URL:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261004
 LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
 SUMMARY:「かがやきフェス2026」
 UID:20261004:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
 URL:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260618
-SUMMARY:イベント予定
-UID:20260618:https://www.saishumiraishoujo.com/schedule/33713806-7feb-4165-9581-2103c64b8cd1
-URL:https://www.saishumiraishoujo.com/schedule/33713806-7feb-4165-9581-2103c64b8cd1
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260811
