@@ -2,17 +2,92 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-SUMMARY:イベント予定
-UID:20260725:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
-URL:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260731
 LOCATION:お台場･青海周辺エリア
 SUMMARY:「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」
 UID:20260731:https://www.saishumiraishoujo.com/schedule/4327a591-3eeb-428c-a631-d98da5ba0cb0
 URL:https://www.saishumiraishoujo.com/schedule/4327a591-3eeb-428c-a631-d98da5ba0cb0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260618
+LOCATION:Veats SHIBUYA
+SUMMARY:「超かわ12MANライブ」
+UID:20260618:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
+URL:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+LOCATION:📍有明東京ドリームパーク(SGCホール有明、ドリームテラス)、TFTホール
+SUMMARY:「10年目記念で有明に引っ越しだよ！六本木アイドルフェスティバル2026」
+UID:20260725:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+URL:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+LOCATION:DRUM Be-1
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
+UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260628
+LOCATION:ヒューリックホール東京（東京都千代田区有楽町2丁目-5-1 有楽町マリオン11F 阪急メンズ東京側）
+SUMMARY:Ten2026生誕LIVE『甜才降臨祭ー甜姫伝ー（てんさいこうりんさい てんきでん）』
+UID:20260628:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
+URL:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260811
+SUMMARY:イベント予定
+UID:20260811:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
+URL:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260823
+SUMMARY:イベント予定
+UID:20260823:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
+URL:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260607
+LOCATION:BPセントラルスペース南船場 2F
+SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 大阪】
+UID:20260607:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
+URL:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260808
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE 2026』
+UID:20260808:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
+URL:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+LOCATION:ステラボール
+SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
+UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
+URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260807
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE 2026』
+UID:20260807:https://www.saishumiraishoujo.com/schedule/b650b5f7-9776-4d6d-a793-e6b844a0df14
+URL:https://www.saishumiraishoujo.com/schedule/b650b5f7-9776-4d6d-a793-e6b844a0df14
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261004
+LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
+SUMMARY:「かがやきフェス2026」
+UID:20261004:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
+URL:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+SUMMARY:イベント予定
+UID:20260725:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
+URL:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260606
@@ -29,27 +104,6 @@ UID:20260705:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-
 URL:https://www.saishumiraishoujo.com/schedule/df5575f3-c45e-403e-b38d-735c88352b38
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260618
-LOCATION:Veats SHIBUYA
-SUMMARY:「超かわ12MANライブ」
-UID:20260618:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
-URL:https://www.saishumiraishoujo.com/schedule/1d15a0fa-5e1e-430c-a538-a3038d478231
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260710
-LOCATION:ステラボール
-SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 東京・ステラボール
-UID:20260710:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
-URL:https://www.saishumiraishoujo.com/schedule/02774cea-ef2a-4f03-9187-3274a1cce43b
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260607
-LOCATION:BPセントラルスペース南船場 2F
-SUMMARY:最終未来少女ちゃんとTikTok撮影会【1st TOUR in 大阪】
-UID:20260607:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
-URL:https://www.saishumiraishoujo.com/schedule/3c1c81c8-3910-4614-81c3-f56deac9762d
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260703
 LOCATION:GOBLIN.北参道店2nd
 SUMMARY:Ten生誕祭2026 甜才降臨祭 -甜姫伝- （てんさいこうりんさい てんきでん）後日特典会
@@ -57,38 +111,10 @@ UID:20260703:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-
 URL:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-b13bda56d0dd
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260612
-LOCATION:DRUM Be-1
-SUMMARY:『最終未来少女 1st TOUR -STELLA-』in 福岡・DRUM Be-1
-UID:20260612:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
-URL:https://www.saishumiraishoujo.com/schedule/cfd979a6-a4f2-4190-b8bd-96afe520d4c0
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260722
 SUMMARY:イベント予定
 UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
 URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260628
-LOCATION:ヒューリックホール東京（東京都千代田区有楽町2丁目-5-1 有楽町マリオン11F 阪急メンズ東京側）
-SUMMARY:Ten2026生誕LIVE『甜才降臨祭ー甜姫伝ー（てんさいこうりんさい てんきでん）』
-UID:20260628:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
-URL:https://www.saishumiraishoujo.com/schedule/02e48d13-ed57-4a6f-8240-9166c0e0c8a9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-LOCATION:📍有明東京ドリームパーク(SGCホール有明、ドリームテラス)、TFTホール
-SUMMARY:「10年目記念で有明に引っ越しだよ！六本木アイドルフェスティバル2026」
-UID:20260725:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
-URL:https://www.saishumiraishoujo.com/schedule/93f3a487-91ac-4351-a808-04ffb4988f36
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260801
-LOCATION:お台場・青梅周辺エリア
-SUMMARY:「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」
-UID:20260801:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
-URL:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261003
@@ -98,22 +124,17 @@ UID:20261003:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-
 URL:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261004
-LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
-SUMMARY:「かがやきフェス2026」
-UID:20261004:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
-URL:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
+DTSTART;VALUE=DATE:20260801
+LOCATION:お台場・青梅周辺エリア
+SUMMARY:「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」
+UID:20260801:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
+URL:https://www.saishumiraishoujo.com/schedule/a31680a0-3115-4c51-a3bb-bb430c2cf076
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260811
-SUMMARY:イベント予定
-UID:20260811:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
-URL:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260823
-SUMMARY:イベント予定
-UID:20260823:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
-URL:https://www.saishumiraishoujo.com/schedule/b03fa3e0-760c-454a-a36c-e011030250ee
+DTSTART;VALUE=DATE:20260809
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE 2026』
+UID:20260809:https://www.saishumiraishoujo.com/schedule/f1510a48-80ff-4247-9961-845377fe0562
+URL:https://www.saishumiraishoujo.com/schedule/f1510a48-80ff-4247-9961-845377fe0562
 END:VEVENT
 END:VCALENDAR
