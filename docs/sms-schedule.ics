@@ -9,12 +9,6 @@ UID:20260711:https://www.saishumiraishoujo.com/schedule/5995a494-db1e-4d38-8e8c-
 URL:https://www.saishumiraishoujo.com/schedule/5995a494-db1e-4d38-8e8c-1292c164c260
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-SUMMARY:イベント予定
-UID:20260725:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
-URL:https://www.saishumiraishoujo.com/schedule/ac938d86-70bd-4ac9-9a9c-0a7271994ee2
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260731
 LOCATION:お台場･青海周辺エリア
 SUMMARY:「TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック」
@@ -50,12 +44,6 @@ UID:20260703:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-
 URL:https://www.saishumiraishoujo.com/schedule/bb6d1127-69f5-4fbe-b08f-b13bda56d0dd
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260722
-SUMMARY:イベント予定
-UID:20260722:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
-URL:https://www.saishumiraishoujo.com/schedule/75ccc9de-d267-48d9-9bb5-9ecdb3112754
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260807
 LOCATION:お台場R地区
 SUMMARY:『IDOL SUMMER JUNGLE 2026』
@@ -63,18 +51,18 @@ UID:20260807:https://www.saishumiraishoujo.com/schedule/b650b5f7-9776-4d6d-a793-
 URL:https://www.saishumiraishoujo.com/schedule/b650b5f7-9776-4d6d-a793-e6b844a0df14
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260808
-LOCATION:お台場R地区
-SUMMARY:『IDOL SUMMER JUNGLE 2026』
-UID:20260808:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
-URL:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261003
 LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
 SUMMARY:「かがやきフェス2026」
 UID:20261003:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
 URL:https://www.saishumiraishoujo.com/schedule/06c41d89-0c8f-4e13-aaa9-785e8fcac3f8
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260808
+LOCATION:お台場R地区
+SUMMARY:『IDOL SUMMER JUNGLE 2026』
+UID:20260808:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
+URL:https://www.saishumiraishoujo.com/schedule/00499565-74a9-4b0a-ba30-25dfe20176a2
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260801
@@ -91,17 +79,18 @@ UID:20260809:https://www.saishumiraishoujo.com/schedule/f1510a48-80ff-4247-9961-
 URL:https://www.saishumiraishoujo.com/schedule/f1510a48-80ff-4247-9961-845377fe0562
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260722
+LOCATION:新宿LOFT
+SUMMARY:「UTAGE FES Vol.5」
+UID:20260722:https://www.saishumiraishoujo.com/schedule/439bc372-95c5-4cff-9570-bc2da593e8b0
+URL:https://www.saishumiraishoujo.com/schedule/439bc372-95c5-4cff-9570-bc2da593e8b0
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261004
 LOCATION:金沢歌劇座/Eight Hall/REDSUN/金沢AZ/金沢GOLD CREEK/ダブル金沢/石川県教育会館ホール/片町きらら
 SUMMARY:「かがやきフェス2026」
 UID:20261004:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
 URL:https://www.saishumiraishoujo.com/schedule/b007e368-1070-42fb-b513-2919f04e0cd2
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260811
-SUMMARY:イベント予定
-UID:20260811:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
-URL:https://www.saishumiraishoujo.com/schedule/177dc1b9-45bc-40e6-91a0-43ea94939137
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260823
