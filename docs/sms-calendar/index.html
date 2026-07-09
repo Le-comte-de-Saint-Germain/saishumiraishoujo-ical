@@ -46,6 +46,24 @@
     .nowrap{ white-space: nowrap; }
     .gap{ display:block; height:.5em; }
 
+    /* 終了告知：タイトル下 */
+    .notice{
+      position: fixed;
+      left: 50%;
+      top: calc(20svh + clamp(86px, 18vw, 118px));
+      transform: translateX(-50%);
+      margin: 0;
+      text-align: center;
+      color: #fff;
+      z-index: 1;
+
+      font-size: clamp(13px, 3.2vw, 16px);
+      font-weight: 650;
+      letter-spacing: .03em;
+      line-height: 1.6;
+      white-space: nowrap;
+    }
+
     /* ボタン：下から1/3（上から2/3）、横幅を10%削減 */
     .btn{
       position: fixed;
@@ -89,8 +107,10 @@
     <span class="nowrap">非公式カレンダー</span>
   </h1>
 
-  <a class="btn" href="webcal://サンジェルマン伯爵.com/sms-schedule.ics">
-    自分のカレンダーに追加（iCal）
+  <p class="notice">※公式TimeTree公開に伴いサービス終了いたしました</p>
+
+  <a class="btn" href="https://timetreeapp.com/public_calendars/sms__press">
+    公式TimeTreeはこちら
   </a>
 </body>
 </html>
